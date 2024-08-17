@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #ebfffc;
+}
+.search-container{
+   
+    /* height:90vh; */
+    width: 80%;
+    max-width: 470px;
+    background: linear-gradient(135deg,#00feba,#5b548a);
+    margin: 50px auto 0px;
+    border-radius: 1.2vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+.inner{
+    display: flex;
+}
+.search{
+    font-size: 20px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 15px;
+    border-radius: 4vh;
+    outline: 0px;
+    background-color: #ebfffc;
+    color: black;
+    
+}
+.search-btn{
+    background-color: #ebfffc;
+    height: 47px;
+    margin-left: 10px;
+    width: 50px;
+    border-radius: 4vh;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.search-btn img{
+    height: 35px;
+}
+
+.humWin{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    /* background-color: pink; */
+    width: 30vw;
+}
+.humWin div{
+    display: flex;
+    width: 40%;
+    /* background-color:pink; */
+    gap: 1.2vh;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.ohterDetrail p,.wind p{
+    margin-top: 8px;
+}
+.humidity {
+    display: none;
+}
